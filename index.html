@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="styles/style.css" id="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="https://www.alura.com.br/" title="Alura"><img class="cabecalho__logo"
+            src="img/logoalura.png" alt="Logo Alura" id="cabecalho__menu__logo"></a>
+        <nav class="cabecalho__menu">        
+        <h1>DECODIFICADOR DE TEXTO</h1>
+        <div class="cabecalho__menu__btn" id="cabecalho__menu__btn">
+            <img src="img/lua.png" alt="Lua ou sol troca o estilo da pagina" id="trocarEstilo" onclick="trocarEstilo()" style="cursor: pointer;">
+        </div>
+        </nav>  
+        
+    </header>
+    <main>
+        <section class="principal">
+            <textarea id="principal__textarea" placeholder="Digite seu texto..."></textarea>
+            <a class="principal__buttons__erro" id="principal__buttons__erro"></a>
+            <div class="principal__aviso">
+                <img src="img/exclamacao.png" alt="Icone exclamação">
+                <p>Apenas letras minúsculas e sem acento.</p> 
+            </div>
+            <div class="principal__buttons">
+                <button id="btn__criptografar" type="button">Criptografar</button>
+                <button id="btn__descriptografar" type="button">Descriptografar</button>
+                               
+            </div>
+        </section>
+        <section class="mensagem" id="mensagem">
+            <div class="mensagem__vazio" id="mensagem__vazio">
+                <img src="img/resultado.png" alt="Personagem com lupa procurando a mensagem!" id="personagem">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+        <section class="resultado" id="resultado">
+            <textarea  id="resultado__textarea" placeholder="textoCriptografado"></textarea>            
+            <button id="btn__copiar" type="button" onclick="copiarParaAreaDeTranferencia()">Copiar</button>
+            <a class="resultado__btn" id="mensagem_area_de_tranferencia"></a>
+        </section>
+    </main> 
+
+    <footer class="rodape">
+        <P>Criado por Lays Regina - © 2024. All rights reserved.</P>
+    </footer>
+    <script src="app.js"></script>   
+</body>
+</html>
