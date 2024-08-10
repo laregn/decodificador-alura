@@ -29,12 +29,9 @@ Neste primeiro desafio, o **Challenge ONE | Lógica de Programação - Decodific
 - Validação de entrada para aceitar apenas letras minúsculas e caracteres válidos.
 - Adição de funcionalidade para copiar o texto para a área de transferência.
 
-## Apresentação
-
-Estou empolgada para começarmos este desafio juntas! Em duas semanas, desenvolveremos uma aplicação que permite trocar mensagens secretas através de uma criptografia simples. Vamos transformar letras em códigos como "e" para "enter", "i" para "imes", e assim por diante. Nossa aplicação será capaz de criptografar e descriptografar mensagens de forma intuitiva e eficiente.
 
 ## Agradecimentos
 
-Muito obrigada aos instrutores e colegas que contribuíram para esse projeto! Estou ansiosa para continuar aprendendo e crescendo na área de tecnologia.
+Muito obrigada aos instrutores que contribuíram para esse projeto! Estou ansiosa para continuar aprendendo e crescendo na área de tecnologia.
 
 
